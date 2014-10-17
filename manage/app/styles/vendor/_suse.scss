@@ -1,0 +1,266 @@
+body {
+	background-color: #f7f7f7;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+background: #3a3e40;
+border-radius:0px;
+border: none;
+border-bottom: 2px solid #666;
+margin-bottom: 20px;
+box-shadow: none;
+webkit-box-shadow: none;
+}
+
+
+.navbar-collapse {
+min-height: 95px;
+}
+
+.navbar-brand {
+	margin-top:12px;
+	margin-left:12px;
+	padding: 9px 30px;
+}
+
+.navbar-fixed-bottom {
+	position: inherit;
+	}
+
+
+.bc-circle {
+	border:0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	height: 32px;
+	width: 82px;
+	text-align: right;
+}
+
+.bc-line {
+	display: none;
+}
+
+.bc-active {
+	background: none;
+	color: #80c235;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border-bottom: 7px solid #80c235;
+} 
+
+.bc-entry {
+	background: none;
+	-webkit-border-radius: none;
+	border-radius: 0%;
+	text-align: left;
+	width: 80px;
+	line-height: 1.1;
+}
+
+.bc-entry:hover {
+	background: none;
+	-webkit-border-radius: none;
+	border-radius: none;
+	text-align: left;
+	border-bottom: 7px solid #80c235;
+} 
+
+.bc-entry:hover {
+	background: none;
+} 
+
+
+.bc-title {
+	color:#fff;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+} 
+
+.bc-item {
+	text-align: end;
+	margin-right: 45px;
+	background: none;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0 0px 1px 0 #fff;
+	webkit-box-shadow: 0 0px 1px 0 #fff;
+	margin: 20px 20px 20px 0px;
+	border-radius: 4px;
+	border: 0px solid #f1f1f1;
+	width: 98%;
+}
+
+.card .pgcanvas {
+	background-color: #fff;
+	border-left: 0px solid #f1f1f1;
+	border-top: 1px solid f2f2f2;
+}
+
+.card-title {
+	background: linear-gradient(to bottom,#f4f4f4 0,#e7e7e7 100%);
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top,#f4f4f4 0,#e7e7e7 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f4f4f4),color-stop(100%,#e7e7e7));
+	font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: rgb(58, 62, 64);
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.inknav {
+	top: 64px;
+	max-width: 600px;
+	margin-left: 0px;
+	margin-right: none;
+	left: 23px;
+}
+
+.circle[Attributes Style] {
+	fill: #80c235
+}
+
+.graph-mode {
+	padding-left: 30px;
+	padding-top: 0px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color:#fff;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 100%;
+}
+
+.graph-mode h1 {
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom: 40px;
+}
+
+.graph-title {
+	color: #5e6a71;
+	margin-top:-10px;
+}
+
+ul.filter>div>label {
+	line-height: 2.6em;
+}
+
+ul.filter .make-switch {
+	top:8px;
+}
+
+.filter-panel .legend-pos {
+	margin-top: 40px;
+}
+
+.raphael-one {
+	background-color: #f7f7f7;
+}
+
+.workbench-mode { 
+background-color: #f7f7f7;
+}
+
+.detail-popover {
+	border: solid 1px #ccc;
+	padding: 10px;
+}
+
+.filter .has-switch span.switch-primary {
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #f7f7f7;
+	color: #666;
+	padding-top: 100px;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: inheritvag;
+}
+
+.footer-links {
+	margin-left:18px;
+}
+
+#footer a {
+	color: #666;
+}
+
+#footer a:hover {
+	color: #00b268;
+	text-decoration: none;
+}
+
+.logo-br {
+	background-image: url(../images/logo-br.png);
+	background-repeat: no-repeat;
+	min-height: 100px;
+}
+
+
+.bottom-line {
+	background: linear-gradient(to right,#1fad7a 0,#80c235 100%);
+	background: -moz-linear-gradient(left,#1fad7a 0,#80c235 100%);
+	background: -webkit-gradient(linear,left top,right top,color-stop(0,#1fad7a),color-stop(100%,#80c235));
+	width: 100%;
+	height: 16px;
+}
+
+.control .btn-custom {
+	color: #fff;
+}
+
+.login-box .errors {
+	color:#BDA078;
+}
+
+.navbar .navbar-nav>li>a {
+	background: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: none;
+	background: none;
+	color: #80c235;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background: none;
+}
+
+.btn-custom {
+	color: #fff;
+}
+
+.errors {
+	color: #BDA078;
+}
+
+.card-title {
+	background: linear-gradient(to bottom,#f4f4f4 0,#e7e7e7 100%);
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top,#f4f4f4 0,#e7e7e7 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f4f4f4),color-stop(100%,#e7e7e7));
+	font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: rgb(58, 62, 64);
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #ccc;
+	box-shadow: inset 0 1px 0 0 #fff;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom: 1px solid transparent;
+	padding: 10px 15px;
+
+}

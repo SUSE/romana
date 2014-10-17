@@ -22,7 +22,7 @@
   <body class='manageApp'>
     <div class="nav navbar hidden-xs disable-user-select" role='navigation'>
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://ceph.com"><img class='image-responsive' src="images/logo.png" alt="Ceph Logo"/></a>
+            <a class="navbar-brand" href="/dashboard/"><img class='image-responsive' src="images/logo.png" alt="go to dashboard"/></a>
         </div>
         
         <div class='inknav'>
@@ -46,6 +46,36 @@
         <div growl></div>
       </div>
       <div class="container-fluid" ng-view></div>
+   <!-- space for footer -->
+  <div class="footer navbar-fixed-bottom" id="footer">
+  <div class="row" id="footer2">
+    <div class="col-md-10">
+      <ul class="list-inline footer-links">
+        <li>
+            Provided by <a href="http://www.suse.com/" target="_blank">SUSE</a>
+        </li><!--
+        <li>
+            <a href="#">Legal </a>
+        </li>
+        <li>
+            <a href="#">About </a>
+        </li>
+        <li>
+            <a href="#">Contact </a>
+        </li>-->
+      </ul>  
+    </div>
+
+    <div class="col-md-2">
+      <div class="logo-br"></div>
+    </div>
+  </div>
+  <div class="bottom-line navbar-fixed-bottom"></div>
+
+
+</div>
+    
+
     </div>
 
     <!--[if lt IE 9]>

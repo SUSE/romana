@@ -9,9 +9,8 @@ $login-foreground: $itlightgray;
 $app-text-color: lighten($itdarkgray,10%);
 $app-logo-background: $itdarkred;
 body {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 400;
-    background: $login-background;
+    background-color: #f7f7f7;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .loginBox {
 }
@@ -24,7 +23,7 @@ body {
         margin-bottom: 40px;
     }
     margin-top: 40px;
-    background: $login-foreground;
+    background: #5e6a71;
     @include border-radius($default-border-radius, $default-border-radius);
 }
 .controls {
@@ -52,9 +51,10 @@ button {
     line-height: 2.4;
 }
 .btn-custom {
-    color: $itlightgray;
+    color: #5cb85c;
     background-repeat: repeat-x;
     border: 0;
+    border-color: #4cae4c;
     @include background-image(linear-gradient(left top, $itaqua, $itaqua));
 }
 .btn-custom.disabled {

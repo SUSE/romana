@@ -5,3 +5,6 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 @import 'inktank_colors.scss';
 @import 'inktank_fonts.scss';
 @import 'login.scss';
+
+// my own file that override the others
+@import 'vendor/suse';

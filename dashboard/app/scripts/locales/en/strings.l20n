@@ -1,8 +1,8 @@
 <unconfigured "Unconfigured">
-<workbench "WORKBENCH">
-<graph "GRAPH">
-<dashboard "DASHBOARD">
-<manage "MANAGE">
+<workbench "Workbench">
+<graph "Charts">
+<dashboard "Dashboard">
+<manage "Manage">
 <workbenchTitle "OSD Workbench">
 <graphTitle "Charting">
 <dashboardTitle "Dashboard">
