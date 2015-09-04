@@ -238,8 +238,17 @@ background-color: #f7f7f7;
 	background: none;
 }
 
+.table>tbody>tr>td {
+	line-height: 2.5;
+}
+
+
 .btn-custom {
 	color: #fff;
+}
+
+.btn {
+	font-weight: 400;
 }
 
 .errors {
