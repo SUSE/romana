@@ -81,14 +81,10 @@ define(['underscore', 'jquery', 'backbone', 'gitcommit', 'jquery.cookie'], funct
             errors.text(msg).css('visibility', 'visible').hide().fadeIn();
         },
         disableSubmit: function(iconClazz) {
-            this.ui.submit.attr('disabled', 'disabled').addClass('disabled').html(this.iconTemplate({
-                iconClazz: iconClazz
-            }));
+            this.ui.submit.attr('disabled', 'disabled');
         },
         enableSubmit: function(iconClazz) {
-            this.ui.submit.removeAttr('disabled').removeClass('disabled').html(this.iconTemplate({
-                iconClazz: iconClazz
-            }));
+            this.ui.submit.removeAttr('disabled');
         },
         loginToggle: function() {
             var username = this.ui.username,
