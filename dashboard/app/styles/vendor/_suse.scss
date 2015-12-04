@@ -112,10 +112,6 @@ min-height: 95px;
 	left: 23px;
 }
 
-.circle[Attributes Style] {
-	fill: #80c235
-}
-
 .graph-mode {
 	padding-left: 30px;
 	padding-top: 0px;
@@ -144,6 +140,9 @@ ul.filter>div>label {
 
 ul.filter .make-switch {
 	top:8px;
+	/* somehow if this font size isn't explicitly set to 14px, clicking on
+	   the filter toggles doesn't work */
+	font-size: 14px;
 }
 
 .filter-panel .legend-pos {
