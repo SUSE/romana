@@ -67,7 +67,7 @@
         // This lets us control the start up order and defer
         // startup till require has loaded all the dependencies.
         angular.element(document).ready(function() {
-            document.title = 'Manage - Romana (' + window.location.host + ')';
+            document.title = 'Manage - SUSE Enterprise Storage (' + window.location.host + ')';
             _.each([{
                     clazz: 'manageApp',
                     module: ['manageApp']

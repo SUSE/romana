@@ -29,22 +29,22 @@ define(['jquery', 'underscore', 'backbone', 'templates', 'l20nCtx!locales/{{loca
                     self.graphIcon();
                 }
             }));
-            document.title = l10n.getSync('dashboard') + ' - Romana (' + window.location.host + ')';
+            document.title = l10n.getSync('dashboard') + ' - SUSE Enterprise Storage (' + window.location.host + ')';
         },
         dashboardIcon: function() {
             this.$('.bc-active').removeClass('bc-active');
             this.ui.dashboardIcon.closest('span').addClass('bc-active');
-            document.title = l10n.getSync('dashboard') + ' - Romana (' + window.location.host + ')';
+            document.title = l10n.getSync('dashboard') + ' - SUSE Enterprise Storage (' + window.location.host + ')';
         },
         fullscreenIcon: function() {
             this.$('.bc-active').removeClass('bc-active');
             this.ui.fullscreenIcon.closest('span').addClass('bc-active');
-            document.title = l10n.getSync('workbench') + ' - Romana (' + window.location.host + ')';
+            document.title = l10n.getSync('workbench') + ' - SUSE Enterprise Storage (' + window.location.host + ')';
         },
         graphIcon: function() {
             this.$('.bc-active').removeClass('bc-active');
             this.ui.graphIcon.closest('span').addClass('bc-active');
-            document.title = l10n.getSync('graph') + ' - Romana (' + window.location.host + ')';
+            document.title = l10n.getSync('graph') + ' - SUSE Enterprise Storage (' + window.location.host + ')';
         },
         serializeData: function() {
             return {

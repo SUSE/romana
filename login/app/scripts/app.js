@@ -15,7 +15,7 @@ define(['underscore', 'jquery', 'backbone', 'gitcommit', 'jquery.cookie'], funct
             setInterval(function() {
                 this.loginToggle();
             }.bind(this), 500);
-            document.title = 'Log In - Romana (' + window.location.host + ')';
+            document.title = 'Log In - SUSE Enterprise Storage (' + window.location.host + ')';
         },
         render: function() {
             this.ui.username = this.$('input[name="username"]');
