@@ -150,7 +150,6 @@ define(['jquery', 'underscore', 'backbone', 'helpers/animation', 'statemachine',
             // We use a promise to ensure GraphWall has finished initializing.
             graphWall.isReady().then(function() {
                 graphWall.hideGraphs();
-                var fqdns;
                 if (fqdn === 'all') {
                     // Default Graphs - Cluster Wide Graphs.
                     graphWall.hideButtons();
@@ -185,16 +184,13 @@ define(['jquery', 'underscore', 'backbone', 'helpers/animation', 'statemachine',
                     }
                 } else {
                     // Default Host Specific Graphs.
-                    fqdns = self.ReqRes.request('get:fqdns');
-                    if (_.contains(fqdns, fqdn)) {
-                        graphWall.showButtons();
-                        graphWall.updateSelect(fqdn);
-                        graphWall.updateBtns('overview');
-                        graphWall.hostname = fqdn;
-                        graphWall.renderGraphs(self.hostGraphTitleTemplate({
-                            fqdn: fqdn
-                        }), graphWall.makeHostOverviewGraphUrl(fqdn));
-                    }
+                    graphWall.showButtons();
+                    graphWall.updateSelect(fqdn);
+                    graphWall.updateBtns('overview');
+                    graphWall.hostname = fqdn;
+                    graphWall.renderGraphs(self.hostGraphTitleTemplate({
+                        fqdn: fqdn
+                    }), graphWall.makeHostOverviewGraphUrl(fqdn));
                 }
             });
         },
